@@ -1,0 +1,45 @@
+
+body
+{
+	font-family: sans-serif;
+	font-size: 110%;
+	margin: 0;
+	padding: 0;
+}
+
+@media all and (max-width: 400px){
+	html{
+		font-size: 80%;
+		background-color: olive;
+	}
+}
+
+@media all and (min-width: 400px){
+	html{
+		font-size: 80%;
+		background-color: peru;
+	}
+}
+
+.main-header
+
+.lista-horizontal
+{
+	margin:0;padding:0;
+}
+
+.lista-horizontal__item
+{
+	display:inline-block;background:green;width:25%;padding:10px;border:10px red solid;
+}
+
+.lista-horizontal__item a
+{
+
+}
+
+#header-home
+{
+	background-color:maroon;
+}
+
